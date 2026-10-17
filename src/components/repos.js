@@ -1,5 +1,7 @@
 import { getRepo } from "../lib/apis.js";
 
-const repos = {}
+const repos = {
+    getApiConent: getRepo
+}
 
 export default repos
